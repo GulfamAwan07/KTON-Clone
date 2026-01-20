@@ -1,1 +1,38 @@
 @import "tailwindcss";
+
+.border-wrapper {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.border-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: -100%;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    #00ff00 60deg,
+    #00ffff 120deg,
+    #0000ff 180deg,
+    #ff00ff 240deg,
+    #ff0000 300deg,
+    transparent 360deg
+  );
+  animation: rotate 4s linear infinite;
+}
+
+.border-rotating {
+  position: relative;
+  background: #16161d;
+  border-radius: 10px;
+  margin: 2px;
+  z-index: 1;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}

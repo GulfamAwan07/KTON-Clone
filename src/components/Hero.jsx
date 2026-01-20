@@ -14,15 +14,15 @@ const Hero = () => {
         <h1 className="text-white font-sans font-bold text-2xl flex items-center justify-center">
           Institutional-Grade Liquid <br /> Staking Protocol on TON
         </h1>
-        <button className="flex items-center justify-center cursor-pointer bg-blue-600 text-white w-[34rem] font-semibold text-sm h-10  rounded-full">
+        <button className="flex items-center justify-center cursor-pointer bg-blue-600 text-white w-[18rem] md:w-[34rem] font-semibold text-sm h-10  rounded-full">
           Connect Wallet
         </button>
       </div>
       <div className="flex flex-col gap-4 justify-center items-center">
-        <div className="flex flex-row gap-48">
+        <div className="flex flex-row justify-between w-[19rem] md:w-[35rem]">
           <div className="flex flex-row gap-2">
             <TbFlowerFilled className="text-[#3741D3]  rounded-full bg-[#10112D] w-6 mt-2 h-6" />
-            <h1 className="text-gray-400 font-semibold text-3xl">
+            <h1 className="text-gray-400 font-semibold text-xl md:text-3xl">
               Earn up to <span className="text-3xl text-white">3.69 % APY</span>
             </h1>
           </div>

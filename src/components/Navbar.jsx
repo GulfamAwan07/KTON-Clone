@@ -15,7 +15,7 @@ const Navbar = () => {
           </h1>
         </div>
 
-        <div className="flex flex-row gap-16 lg:gap-36 mt-10">
+        <div className="flex flex-row gap-16 lg:gap-36 mt-10 ">
           <Link
             to="/"
             className="flex flex-col items-center cursor-pointer justify-center hover:bg-[#191C65] w-16 h-16 hover:rounded-2xl"
